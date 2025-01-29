@@ -13,14 +13,16 @@ Requirements:
 - The system alert users if the credentials are not valid
 - The system include captcha
 - The system must be validate if captcha is solved correctly
-- The system must have a way to recover passwords
-- The system 
+- The system must have a way to recover passwords (Forgot your password?)
+- The "Remember me" option must persist user session data if enabled
+- The system encrypt the credentials
+  
 
 Assumptions:
 - Email must be registered 
 - The user knows how to solve captcha
-- The email must be exist
-- 
+- The email must be exist in the authentication system
+- Users will not be able to proceed if required fields are incomplete
 
 
 
