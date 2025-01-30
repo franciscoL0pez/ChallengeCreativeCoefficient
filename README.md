@@ -25,4 +25,14 @@ Assumptions:
 - Users will not be able to proceed if required fields are incomplete
 
 
+## Ejer 4
+
+```bash
+Write a query to find the top 3 most profitable drugs sold, and how much profit they made.
+Assume that there are no ties in the profits.
+Display the result from the highest to the lowest total profit.
+```
+Query:
+- SELECT drug, (total_sales - cogs) AS total_profit FROM pharmacy_sales ORDER BY total_profit DESC LIMIT 3;
+I create table and insert some data to test query: https://sandboxsql.com/b36e3629-a7e3-4961-891f-43663a2930fa
 
