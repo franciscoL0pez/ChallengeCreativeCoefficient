@@ -6,7 +6,7 @@ import unittest
 # - Returns: int: number of greetings
 
 
-def greeting_numbers(moves:str) -> int:
+def countGreetings(moves:str) -> int:
     greetings = 0
     
     for i in range(len(moves)):
@@ -23,20 +23,20 @@ def greeting_numbers(moves:str) -> int:
 class TestGreetings(unittest.TestCase):
 
     def test_one_meeting_without_empty_spaces(self):
-        self.assertEqual(greeting_numbers('><'), 2)
+        self.assertEqual(countGreetings('><'), 2)
 
     def test_one_meeting_with_empty_space(self):
-        self.assertEqual(greeting_numbers('<---<--->----<'), 2)
+        self.assertEqual(countGreetings('<---<--->----<'), 2)
 
     def test_two_meetings(self):
-        self.assertEqual(greeting_numbers('-->--<--<--'), 4)
+        self.assertEqual(countGreetings('-->--<--<--'), 4)
 
     def test_four_meetings(self):
-        self.assertEqual(greeting_numbers('>----->-----<--<'), 8)
+        self.assertEqual(countGreetings('>----->-----<--<'), 8)
 
 
     def test_no_meetings(self):
-        self.assertEqual(greeting_numbers('--<-<--->>'), 0)
+        self.assertEqual(countGreetings('--<-<--->>'), 0)
 
 
 
