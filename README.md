@@ -35,6 +35,7 @@ Display the result from the highest to the lowest total profit.
 Query:
 - SELECT drug, (total_sales - cogs) AS total_profit FROM pharmacy_sales ORDER BY total_profit DESC LIMIT 3;
 
-I create table and insert some data to test query: ![SandBox](https://sandboxsql.com/b36e3629-a7e3-4961-891f-43663a2930fa)
+I create table and insert some data to test query: [![SandBox](https://sandboxsql.com/b36e3629-a7e3-4961-891f-43663a2930fa)](https://sandboxsql.com/b36e3629-a7e3-4961-891f-43663a2930fa)
+
 
 
