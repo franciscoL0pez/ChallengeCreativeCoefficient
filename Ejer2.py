@@ -32,11 +32,11 @@ class TestGreetings(unittest.TestCase):
         self.assertEqual(greeting_numbers('-->--<--<--'), 4)
 
     def test_four_meetings(self):
-        self.assertEqual(greeting_numbers(' >----->-----<--<'), 8)
+        self.assertEqual(greeting_numbers('>----->-----<--<'), 8)
 
 
     def test_no_meetings(self):
-        self.assertEqual(greeting_numbers('--<-<-'), 0)
+        self.assertEqual(greeting_numbers('--<-<--->>'), 0)
 
 
 
