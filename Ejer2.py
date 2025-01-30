@@ -8,18 +8,11 @@ import unittest
 
 def greeting_numbers(moves:str) -> int:
     greetings = 0
-    for i in range(len(moves)):
-        if moves[i] == '>':
-            for j in range(i+1, len(moves)):
-                if moves[j] == '<':
-                    greetings += 2
     
-    return greetingsnce 
-def greeting_numbers(moves:str) -> int:
-    greetings = 0
     for i in range(len(moves)):
         if moves[i] == '>':
-            for j in range(i+1, len(moves)):
+            
+            for j in range(i + 1, len(moves)):
                 if moves[j] == '<':
                     greetings += 2
     
