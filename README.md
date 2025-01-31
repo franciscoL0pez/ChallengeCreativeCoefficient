@@ -16,14 +16,14 @@ Requirements:
 - The system must have a way to recover passwords (Forgot your password?)
 - The "Remember me" option must persist user session data if enabled
 - The system encrypt the credentials
-  
+- The system can handle many users
 
 Assumptions:
 - Email must be registered 
 - The user knows how to solve captcha
 - The email must be exist in the authentication system
 - Users will not be able to proceed if required fields are incomplete
-
+- The company has the necessary resources to carry out the requirements
 
 ## Ejer 4
 
