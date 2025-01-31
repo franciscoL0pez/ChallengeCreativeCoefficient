@@ -19,7 +19,8 @@ Requirements:
 - The system can handle many users
 
 Assumptions:
-- Email must be registered 
+- Email must be registered
+- User can register in another tab
 - The user knows how to solve captcha
 - The email must be exist in the authentication system
 - Users will not be able to proceed if required fields are incomplete
